@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  a{
+    @apply text-blue-400;
+  }
+  a:hover{
+    @apply underline;
+  }
+  th,td{
+    @apply border;
+  }
+  td{
+    @apply px-2;
+  }
+  iframe{
+    @apply w-full ;
+  }
+}
